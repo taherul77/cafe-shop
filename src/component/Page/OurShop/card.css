@@ -1,0 +1,14 @@
+.button-cart {
+    margin: auto;
+    width: 60px;
+    color: #ffff;
+    height: 34px;
+    border-top-left-radius: 45px;
+    border-top-right-radius: 45px;
+    border: 1px solid #cdcdcd;
+    border-bottom: 0px;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    right: 0;
+}
