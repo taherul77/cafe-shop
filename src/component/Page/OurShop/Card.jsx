@@ -1,7 +1,7 @@
 import { useRef, useState } from "react";
 import "./card.css";
 
-const Cart = () => {
+const Card = () => {
   const [isHovered, setIsHovered] = useState(false);
   const delayedIsHovered = useRef(false);
   const timeoutId = useRef(null);
@@ -66,4 +66,4 @@ const Cart = () => {
   );
 };
 
-export default Cart;
+export default Card;

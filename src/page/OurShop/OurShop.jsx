@@ -1,11 +1,12 @@
-import Cart from "../../component/Page/OurShop/Card";
+import Card from "../../component/Page/OurShop/Card";
+
 
 
 const OurShop = () => {
     return (
         <div>
             <div className="grid grid-cols-12 gap-5 gap-y-10 ">
-             <Cart></Cart>
+             <Card></Card>
             </div>
             
         </div>
