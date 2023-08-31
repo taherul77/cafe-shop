@@ -1,3 +1,10 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+@font-face {
+    font-family: greatVibes;
+    src: url(../public/GreatVibes-Regular.ttf);
+}
+.greatVibes{
+    font-family: greatVibes;
+}
