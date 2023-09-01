@@ -1,3 +1,4 @@
+import Banner from "../../component/Page/Home/Banner";
 import Contact from "../../component/Page/Home/Contact";
 import MenuItem from "../../component/Page/Home/MenuItem";
 import Offer from "../../component/Page/Home/Offer";
@@ -9,6 +10,7 @@ import SectionTitle from "../../component/app/SectionTitle";
 const Home = () => {
   return (
     <div>
+        <Banner></Banner>
       <Welcome></Welcome>
       <Offer></Offer>
       <Spacial></Spacial>

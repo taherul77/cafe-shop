@@ -4,7 +4,7 @@ const Footer = () => {
   return (
     <div className="grid lg:grid-cols-3 grid-cols-1 lg:gap-32 gap-10 items-center text-center py-10 mt-20">
       <div>
-        <div className="flex justify-center">
+        <div className="flex justify-center gap-2">
           <img src={logo} alt="" className="h-8" />
           <a className="lg:text-2xl text-xl text-white">S T R A D A L A</a>
         </div>

@@ -49,7 +49,7 @@ const Header = () => {
             </ul>
           </div>
           <Link to="/">
-            <div className="flex">
+            <div className="flex gap-2">
               <img src={logo} alt="" className="h-8" />
               <a className="lg:text-2xl text-lg text-white">S T R A D A L A</a>
             </div>
