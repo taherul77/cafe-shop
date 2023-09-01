@@ -1,15 +1,17 @@
 import Card from "../../component/Page/OurShop/Card";
 
+import Wrapper from "../../component/app/Wrapper";
+
 
 
 const OurShop = () => {
     return (
-        <div>
-            <div className="grid grid-cols-12 gap-5 gap-y-10 ">
-             <Card></Card>
-            </div>
-            
-        </div>
+        <Wrapper>
+        <div className="grid grid-cols-12">
+         <Card></Card>
+         </div>
+        
+        </Wrapper>
     );
 };
 

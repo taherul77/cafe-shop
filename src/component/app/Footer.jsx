@@ -12,7 +12,7 @@ const Footer = () => {
       </div>
 
       <div>
-          <p className="text-center text-lg">© Copyright 2023 – Stradale by <span className="text-[#CA8E46]">TAJ</span></p>
+          <p className="text-center text-lg">© Copyright 2023 – Stradale by <span className="text-[#CA8E46]">SK Taherul Islam Taz</span></p>
         </div>
 
       <div className="">

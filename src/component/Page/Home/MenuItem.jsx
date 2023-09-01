@@ -2,7 +2,7 @@
 
 const MenuItem = () => {
     return (
-        <div className="grid lg:grid-cols-2 gap-20 lg:px-20 px-5 pt-24">
+        <div className="grid lg:grid-cols-2 gap-20 lg:px-20 px-5 pt-5">
         <div className=" ">
           <div className="flex justify-between text-center mb-10">
             <h1 className="text-2xl font-bold text-white">
