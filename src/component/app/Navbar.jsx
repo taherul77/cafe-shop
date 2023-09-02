@@ -85,13 +85,7 @@ const Header = () => {
                                 <Link to={"/dashboard"}>Dashboard</Link>
                             </li>
                         ) : (
-                            <li>
-                                <Link
-                                    to={`/orders/${currentUser.phone}`}
-                                >
-                                    My Orders
-                                </Link>
-                            </li>
+                           <></>
                         )}
                         <li>
                             <Link
@@ -175,13 +169,7 @@ const Header = () => {
                                     </Link>
                                 </li>
                             ) : (
-                                <li>
-                                    <Link
-                                        to={`/orders/${currentUser.phone}`}
-                                    >
-                                        My Orders
-                                    </Link>
-                                </li>
+                                <></>
                             )}
                             <li>
                                 <Link

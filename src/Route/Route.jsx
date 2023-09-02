@@ -10,6 +10,9 @@ import Cart from "../page/Cart/Cart";
 import Checkout from "../page/CheckOut/Checkout";
 import Dashboard from "../page/Dashboard/Dashboard";
 import Summary from "../page/Summary/Summary";
+import Customers from "../page/Customers/Customers";
+import Orders from "../page/Orders/Orders";
+import Product from "../page/Product/Product";
 
 export const router = createBrowserRouter([
   {
@@ -61,10 +64,26 @@ export const router = createBrowserRouter([
             path: "/dashboard/customers",
             element: (
                 
-                    <></>
-               
+                    <Customers />
+                
             ),
         },
+        {
+          path: "/dashboard/orders",
+          element: (
+              
+                  <Orders />
+              
+          ),
+      },
+      {
+        path: "/dashboard/products",
+        element: (
+            
+                <Product />
+            
+        ),
+    },
         ],
       },
     ],
