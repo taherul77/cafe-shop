@@ -1,5 +1,5 @@
 import { useState } from "react";
-import image from "../../assets/image/pexels-chevanon-photography-302902.jpg";
+import image from "../../assets/icons/coffee2.svg";
 
 import { Link,  useLocation,  useNavigate } from "react-router-dom";
 
@@ -208,7 +208,7 @@ const Login = () => {
                         <div className="">
                             <button
                                 type="submit"
-                                className={"w-full font-bold bg-primary text-white"}
+                                className="block w-full p-3 text-center px-6 py-2 font-bold text-cyan-50 border-md rounded-md  bg-[#CA8E46]"
                             >
                                 Log In
                             </button>
@@ -228,8 +228,8 @@ const Login = () => {
                         </div>
                     </form>
                 </div>
-                <div className="hidden lg:w-6/12 lg:flex justify-center items-center">
-                    <img src={image} alt="" />
+                <div className="hidden lg:w-6/12 lg:flex object-cover justify-center items-center">
+                    <img  src={image} alt="" />
                 </div>
             </div>
         </div>

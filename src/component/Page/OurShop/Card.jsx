@@ -1,9 +1,21 @@
 /* eslint-disable react/prop-types */
 
+import { toast } from "react-hot-toast";
+import GetCart from "../../../helper/getCart";
+import setCart from "../../../helper/setCart";
 
 const Card = ({ product }) => {
   const { name, price, image, rate, discount_price } = product;
- 
+  const AddToCart = (data) => {
+    const cartItem = {
+      data,
+      quantity: 1,
+    };
+    setCart(cartItem);
+    toast.success("Successfully Added");
+  };
+
+  const { refetch } = GetCart();
 
   return (
     <div className="flex justify-center items-center col-span-12 md:col-span-6 lg:col-span-4 w-full">
@@ -68,10 +80,19 @@ const Card = ({ product }) => {
           </div>
           <div className="flex items-center justify-between">
             <p>
-              <span className="text-3xl font-bold text-slate-900">${discount_price}</span>
-              <span className="text-sm text-slate-900 line-through">${price}</span>
+              <span className="text-3xl font-bold text-slate-900">
+                ${discount_price}
+              </span>
+              <span className="text-sm text-slate-900 line-through">
+                ${price}
+              </span>
             </p>
-            <button className="flex items-center rounded-md bg-slate-900 px-5 py-2.5 text-center text-sm font-medium text-white hover:bg-yellow-800 ">
+            <button
+              onClick={() => {
+                AddToCart(product), refetch();
+              }}
+              className="flex items-center rounded-md bg-slate-900 px-5 py-2.5 text-center text-sm font-medium text-white hover:bg-yellow-800 "
+            >
               Add to cart
             </button>
           </div>

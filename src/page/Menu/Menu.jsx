@@ -6,7 +6,7 @@ import image from "../../assets/banner/bannerall.jpg";
 const Menu = () => {
     return (
         <>
-        <ShopBanner className="lg:h-screen" img={image} heading={"OUR Menu"}></ShopBanner>
+        <ShopBanner img={image} heading={"OUR Menu"}></ShopBanner>
         <MenuItem></MenuItem>
         </>
     );
