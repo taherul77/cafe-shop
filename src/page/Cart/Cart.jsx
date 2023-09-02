@@ -12,12 +12,12 @@ const Cart = () => {
   console.log(data);
 
   return (
-    <div>
+    <div className="bg-white">
          <ShopBanner img={image} heading={"My Cart"}></ShopBanner>
-      <section className="h-auto">
-        <div className="mx-auto  px-4 sm:px-6 lg:px-8">
+      <section className="h-auto ">
+        <div className="mx-auto   px-4 sm:px-6 lg:px-8">
           {!data || data?.length === 0 ? (
-            <div className="h-[calc(100vh-10rem)] bg-white m-28 flex justify-center items-center">
+            <div className="h-[calc(100vh-10rem)]  m-28 flex justify-center items-center">
               <div>
                 <h1 className="text-3xl md:text-5xl font-black text-center text-black leading-10 uppercase">
                   No Product available
@@ -77,7 +77,7 @@ const Cart = () => {
                   </div>
 
                   <div className="mt-6 text-center">
-                    <Link href="/cart/checkout">
+                    <Link to="/checkout">
                       <button
                         type="button"
                         className="group inline-flex w-full items-center justify-center rounded-md bg-gray-900 px-6 py-4 text-lg font-semibold text-white transition-all duration-200 ease-in-out focus:shadow hover:bg-yellow-800"
