@@ -23,7 +23,7 @@ const Header = () => {
     { name: "Home", link: "/" },
     { name: "Menu", link: "/menu" },
     { name: "Shop", link: "/our-shop" },
-    { name: "Contact", link: "/contact" },
+    { name: "Blog", link: "/blogs" },
 ];
   return (
     <div className="shadow-lg w-full fixed bg-black/40 top-0 z-10">
@@ -45,7 +45,10 @@ const Header = () => {
             className="col-span-6 lg:col-span-3 flex justify-center lg:justify-start"
             to={"/"}
         >
-            <img className="w-20 h-auto" src={logo} alt="" />
+            <div className="flex gap-5  items-center">
+          <img src={logo} alt="" className="h-16"/>
+          <a className="lg:text-2xl text-lg text-white">S T R A D A L A</a>
+          </div>
         </Link>
 
         {/* mobile menu cart and user  */}

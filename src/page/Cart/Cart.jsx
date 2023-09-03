@@ -4,7 +4,7 @@ import GetCart from "../../helper/getCart";
 import calculateTotal from "../../helper/totalPrice";
 import CartItem from "../../component/Page/OurShop/cart/CartItem";
 import ShopBanner from "../../component/Page/OurShop/ShopBanner";
-import image from "../../assets/banner/bannerall.jpg";
+import image from "../../assets/image/banner.png";
 
 const Cart = () => {
   const { data, refetch } = GetCart();

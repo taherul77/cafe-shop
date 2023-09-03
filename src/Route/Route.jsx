@@ -13,6 +13,7 @@ import Summary from "../page/Summary/Summary";
 import Customers from "../page/Customers/Customers";
 import Orders from "../page/Orders/Orders";
 import Product from "../page/Product/Product";
+import Blogs from "../page/Blogs/Blogs";
 
 export const router = createBrowserRouter([
   {
@@ -27,6 +28,10 @@ export const router = createBrowserRouter([
       {
         path: "/our-shop",
         element: <OurShop></OurShop>,
+      },
+      {
+        path: "/blogs",
+        element: <Blogs></Blogs>
       },
       {
         path: "/cart",

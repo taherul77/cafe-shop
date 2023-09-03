@@ -3,7 +3,7 @@ import { BASE_URL } from "../../component/hook/url";
 import { useAuth } from "../../context/AuthProvider";
 import GetCart from "../../helper/getCart";
 import calculateTotal from "../../helper/totalPrice";
-import image from "../../assets/banner/bannerall.jpg";
+import image from "../../assets/image/banner.png";
 
 const Checkout = () => {
   const { currentUser } = useAuth();

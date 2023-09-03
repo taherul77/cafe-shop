@@ -1,7 +1,6 @@
 import MenuItem from "../../component/Page/Menu/MenuItem";
 import ShopBanner from "../../component/Page/OurShop/ShopBanner";
-import image from "../../assets/banner/bannerall.jpg";
-
+import image from "../../assets/image/banner.png";
 
 const Menu = () => {
     return (

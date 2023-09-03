@@ -1,0 +1,66 @@
+[
+    {
+      "name": "Brazil Coffee",
+      "image": "https://i.ibb.co/RY0hs4P/product-img-11.png",
+      "rate": 4.8,
+      "price": 17.99,
+      "description": "A rich and flavorful coffee with a smooth taste, sourced from the coffee farms of Brazil.",
+      "discount_price": 17
+    },
+    {
+      "name": "Columbia Coffee",
+      "image": "https://i.ibb.co/6JL02Qh/product-img-5-1.png",
+      "rate": 4.3,
+      "price": 5.99,
+      "description": "A medium-bodied coffee with bright acidity, grown in the highlands of Colombia.",
+      "discount_price": 5
+    },
+    {
+      "name": "Ethiopia Arabica",
+      "image": "https://i.ibb.co/Wkj50nT/product-new3.jpg",
+      "rate": 4.7,
+      "price": 14.99,
+      "description": "An exotic single-origin Arabica coffee from Ethiopia, known for its fruity and floral notes.",
+      "discount_price": 14.5
+    },
+    {
+      "name": "Ethiopia Coffee",
+      "image": "https://i.ibb.co/mRdTxN2/product-img.png",
+      "rate": 4.6,
+      "price": 79.99,
+      "description": "A premium Ethiopian coffee blend, perfect for connoisseurs seeking bold flavors.",
+      "discount_price": 65
+    },
+    {
+      "name": "Ethiopia Robusta",
+      "image": "https://i.ibb.co/S5RzBGx/product-new5.jpg",
+      "rate": 4.9,
+      "price": 29.99,
+      "description": "A robust and full-bodied coffee with a strong caffeine kick, sourced from Ethiopia.",
+      "discount_price": 28
+    },
+    {
+      "name": "Kenya Coffee",
+      "image": "https://i.ibb.co/dQtMHgm/product-img-3.png",
+      "rate": 4.2,
+      "price": 29.99,
+      "description": "A Kenyan coffee with a bright acidity and unique fruity flavors, grown in the Kenyan highlands.",
+      "discount_price": 20
+    },
+    {
+      "name": "Nicaragua 100%",
+      "image": "https://i.ibb.co/b2zVL5B/product-new1.jpg",
+      "rate": 4.7,
+      "price": 39.99,
+      "description": "A 100% Nicaraguan coffee with a well-balanced flavor profile, perfect for everyday enjoyment.",
+      "discount_price": 30
+    },
+    {
+      "name": "Nicaragua Traditional",
+      "image": "https://i.ibb.co/bvdCXt6/product-new2.jpg",
+      "rate": 4.8,
+      "price": 9.99,
+      "description": "A traditional Nicaraguan coffee that combines rich flavors with affordability.",
+      "discount_price": 8
+    }
+]
